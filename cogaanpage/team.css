@@ -1,0 +1,50 @@
+*{
+        box-sizing: border-box;
+}
+.maincontent{
+        background-color:#00000045;
+}
+.title-name {
+        font-weight: bolder;
+}
+
+.cardrows {
+        row-gap: 10rem;
+}
+
+.cards {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        
+
+}
+
+.card {
+        background-color:#ffffff3d;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.card-body img {
+        position: absolute;
+        top: -60px;
+        left: 2.5rem;
+}
+
+.role_person_name {
+        padding-top: 12rem;
+        font-weight:700;
+        
+}
+
+.role_name {
+        font-weight:600;
+        
+}
+.role_name2 {
+        font-size:larger;
+        font-weight:600;
+}
+.title-name{
+        height:10rem;
+}

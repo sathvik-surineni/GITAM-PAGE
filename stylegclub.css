@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+.nav-link{
+ color:black;
+ font-size: large;
+ font-weight:500;
+}
+.carousel-item{
+    height:500px;
+}
+.cutoff-text{
+  --max-lines:4;
+  display:-webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--max-lines);
+}
+.StudentClubHeader{
+  position:relative;
+}
+.StudentClubunderline{
+  position:absolute;
+  width:30rem;
+  top:5rem;
+  left:31%;
+}
+.SIGHeader{
+  position:relative;
+}
+.SIGline{
+  position:absolute;
+  width:30rem;
+  top:5rem;
+  left:31%;
+}
+@media (max-width:480px) {
+  .carousel-item{
+    height:200px;
+}
+.StudentClubHeader{
+  position:relative;
+}
+.StudentClubunderline{
+  position:absolute;
+  width:20rem;
+  top:5rem;
+  left:5%;
+}
+.SIGHeader{
+  position:relative;
+}
+.SIGline{
+  position:absolute;
+  width:20rem;
+  top:5rem;
+  left:5%;
+}
+}
